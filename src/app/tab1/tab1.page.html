@@ -1,17 +1,26 @@
 <ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Tab 1
+  <ion-toolbar color="danger">
+    <ion-title text="left">
+      Sabores
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content [fullscreen]="true" color="dark"> 
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-item color="dark" >
+    <ion-thumbnail slot="start" >
+      <img src="https://img.itdg.com.br/tdg/images/recipes/000/155/954/102994/102994_original.jpg?w=1200">
+    </ion-thumbnail >
+    <ion-label>
+    <h3>Brócolis com bacon</h3>
+    <p>Brócolis com bacon</p>
+    <p slot="end">R$20  </p>
+    
+    
+
+    </ion-label>
+   
+  </ion-item>
+ 
 </ion-content>
